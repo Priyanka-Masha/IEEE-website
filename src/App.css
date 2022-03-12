@@ -1,4 +1,5 @@
 .App {
+  background-color: black;
 }
 
 .App-logo {
@@ -35,3 +36,5 @@
     transform: rotate(360deg);
   }
 }
+
+

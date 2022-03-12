@@ -1,0 +1,131 @@
+.header {
+  background-color: black;
+  color: rgb(0, 0, 0);
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  }
+
+.header > div {
+  margin: 10px;
+}
+
+.headerItems{
+    display: flex;
+    color: #f7eeee;
+    cursor: pointer;
+    font-size: larger;
+}
+    .headerItems p{
+        margin:10px;
+    }
+
+    li{
+      list-style-type:none;
+      }
+
+.headerActions{
+    display: flex;
+    align-items: center;
+}
+.headerActions > div{
+    margin: 10px;
+}
+.themeSwitchContainer{
+    display: flex;
+    background-color: #1c1c1c;
+    border-radius: 50px;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+}
+.themeSwitchContainer > img{
+    height: 25px;
+}
+
+/*.loginButton{
+    background: linear-gradient(to right,#59f9b7,#66feea );
+    /*padding: 15px 40px;
+    border-radius: 50px;
+    color: black;
+}*/
+
+.Logo {
+  width: 200px;
+   height: 100px;
+}
+
+.loginButton:hover {
+  
+  color:#f60035;
+  background-color: #17181c;
+  text-shadow: 0 0 5px #fb0036, 0 0 25px #f10034;
+}
+
+.About a:hover{
+  border-style:2px ;
+  border-color: rgb(0, 0, 0);
+}
+
+
+.btn {
+  width: 100px;
+  height: 30px;
+  font-family: 'Cinzel', serif;
+  font-size: 17px;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 0;
+  transition: 1s;
+}
+
+.btn::after, .btn::before {
+  position: absolute;
+  background: rgb(19, 18, 18);
+  z-index:-1;
+  transition: 1s;
+  content: '';
+}
+
+.btn::before {
+  height: 30px;
+  width: 100px;
+}
+
+.btn::after {
+  width: 100px;
+  height: 30px;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+.btn:hover::before {
+  width: 0px;
+  background:rgb(135, 143, 146);
+}
+
+.btn:hover::after {
+  height: 0px;
+  background: rgb(133, 154, 161);
+}
+
+.btn:hover {
+  background:black;
+}
+
+ 
+
