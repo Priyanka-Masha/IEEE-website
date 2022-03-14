@@ -2,8 +2,9 @@ import React from 'react'
 
 const Body = () => {
   return (
-    <div>Body</div>
-    
+    <div>
+        <h1>hello this is frqn body</h1>
+    </div>
   )
 }
 

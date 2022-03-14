@@ -96,11 +96,11 @@
 
 .btn::before {
   height: 30px;
-  width: 100px;
+  width: 0px;
 }
 
 .btn::after {
-  width: 100px;
+  width: 0px;
   height: 30px;
 }
 
@@ -114,12 +114,12 @@
 }
 
 .btn:hover::before {
-  width: 0px;
+  width: 100px;
   background:rgb(135, 143, 146);
 }
 
 .btn:hover::after {
-  height: 0px;
+  height: 100px;
   background: rgb(133, 154, 161);
 }
 
