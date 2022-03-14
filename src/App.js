@@ -5,8 +5,7 @@ import Head from './components/Header'
 const App = () => {
   return (
     <div>
-      <Head/>
-    
+      <Head/>    
     </div>
 
   )
