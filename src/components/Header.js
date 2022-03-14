@@ -1,42 +1,80 @@
 import React from "react";
 import "./Header.css";
-import { Link } from "react-router-dom";
 
 import logo from "../Assets/Logo.png";
+import { Link } from "react-router-dom";
 function Header() {
   return (
     <div className="header">
-      <Link to="/">
-        <div className="logoContainer">
+      <div className="logoContainer">
+        <Link to="/">
           <img className="Logo" src={logo} alt="" />
-        </div>
-      </Link>
+        </Link>
+      </div>
 
       <div className="headerItems">
-        <li>
-          <a className="btn">About Us</a>
-        </li>
-        <li>
-          <a className="btn">Excom</a>
-        </li>
-        <li>
-          <a className="btn">Societies</a>
-        </li>
-        <li>
-          <a className="btn">Events</a>
-        </li>
-        <li>
-          <a className="btn">Membership</a>
-        </li>
-        <li>
-          <a className="btn">Gallery</a>
-        </li>
-        <li>
-          <a className="btn">Contact Us</a>
-        </li>
-        <li>
-          <a className="loginButton">Sign In</a>
-        </li>
+        <Link to="/AboutUs">
+          <li>
+            <a className="btn" href="#">
+              About Us
+            </a>
+          </li>
+        </Link>
+        <Link to="/Excom">
+          <li>
+            <a className="btn" href="#">
+              Excom
+            </a>
+          </li>
+        </Link>
+
+        <Link to="/Societies">
+          <li>
+            <a className="btn" href="#">
+              Societies
+            </a>
+          </li>
+        </Link>
+
+        <Link to="/Events">
+          <li>
+            <a className="btn" href="#">
+              Events
+            </a>
+          </li>
+        </Link>
+
+        <Link to="/Membership">
+          <li>
+            <a className="btn" href="#">
+              Membership
+            </a>
+          </li>
+        </Link>
+
+        <Link to="/AboutUs">
+          <li>
+            <a className="btn" href="#">
+              Gallery
+            </a>
+          </li>
+        </Link>
+
+        <Link to="/ContactUs">
+          <li>
+            <a className="btn" href="#">
+              Contact Us
+            </a>
+          </li>
+        </Link>
+
+        <Link to="/SignIn">
+          <li>
+            <a className="btn" href="#">
+              Sign In
+            </a>
+          </li>
+        </Link>
       </div>
     </div>
   );

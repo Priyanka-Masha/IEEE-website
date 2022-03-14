@@ -1,7 +1,21 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: white;
+}
+a{
+    margin: 5px;
+    text-decoration: none;
+    color: white;
+}
 .header {
   background-color: black;
   color: rgb(0, 0, 0);
   height: 80px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -14,6 +28,7 @@
 
 .headerItems{
     display: flex;
+    float: right;
     color: #f7eeee;
     cursor: pointer;
     font-size: larger;
@@ -46,36 +61,17 @@
     height: 25px;
 }
 
-/*.loginButton{
-    background: linear-gradient(to right,#59f9b7,#66feea );
-    /*padding: 15px 40px;
-    border-radius: 50px;
-    color: black;
-}*/
-
 .Logo {
   width: 200px;
    height: 100px;
 }
 
-.loginButton:hover {
-  
-  color:#f60035;
-  background-color: #17181c;
-  text-shadow: 0 0 5px #fb0036, 0 0 25px #f10034;
-}
-
-.About a:hover{
-  border-style:2px ;
-  border-color: rgb(0, 0, 0);
-}
-
 
 .btn {
-  width: 100px;
-  height: 30px;
+  width: 130px;
+  height: 50px;
   font-family: 'Cinzel', serif;
-  font-size: 17px;
+  font-size: 20px;
   cursor: pointer;
   -webkit-tap-highlight-color: transparent;
   display: flex;
@@ -86,21 +82,21 @@
   transition: 1s;
 }
 
-.btn::after, .btn::before {
+.btn::before, .btn::after {
   position: absolute;
-  background: rgb(19, 18, 18);
-  z-index:-1;
+  background: black;
+  z-index: -1;
   transition: 1s;
   content: '';
 }
 
 .btn::before {
-  height: 30px;
-  width: 0px;
+  height: 50px;
+  width: 130px;
 }
 
 .btn::after {
-  width: 0px;
+  width: 150px;
   height: 30px;
 }
 
@@ -114,18 +110,16 @@
 }
 
 .btn:hover::before {
-  width: 100px;
-  background:rgb(135, 143, 146);
+  width: 0px;
+  background: black;
 }
 
 .btn:hover::after {
-  height: 100px;
-  background: rgb(133, 154, 161);
+  height: 0px;
+  background: black;
 }
 
 .btn:hover {
-  background:black;
+  border: 1px solid white;
+  background: black;
 }
-
- 
-
