@@ -1,6 +1,7 @@
 import React from 'react'
-import antenna from './antenna'
-import cast from './cast'
+import Header from '../../Header';
+
+import SociBody from './SociBody';
 
 const Society = () => {
   return (

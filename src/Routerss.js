@@ -17,6 +17,7 @@ import Contact from "./components/pages/Contact";
 
 import SignIn from "./components/pages/SignIn";
 
+
 const Routerss = () => {
   return (
     <Router>
@@ -59,11 +60,15 @@ const Routerss = () => {
           path="/Societies"
           element={
             <>
-              <Header />
               <Society />
-            </>
+              
+            </>  
           }
         />
+        
+
+        <Route/>
+
 
         <Route
           exact

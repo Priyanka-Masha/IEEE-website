@@ -1,11 +1,12 @@
 import React from 'react'
 
-const medicine = () => {
+const Medicine = () => {
   return (
     <div>
        <h1>
       ---------------------------------------------🥷🥷🥷🥷🥷🥷🥷--------------------------------------
       </h1>
+      <h1>Medicineeeeeeeeeeeeee</h1>
       <h1>
       ---------------------------------------------🥷🥷🥷🥷🥷🥷🥷--------------------------------------
       </h1>
@@ -13,4 +14,4 @@ const medicine = () => {
   )
 }
 
-export default medicine
+export default Medicine

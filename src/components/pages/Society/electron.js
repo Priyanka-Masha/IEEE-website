@@ -1,11 +1,12 @@
 import React from 'react'
 
-const electron = () => {
+const Electron = () => {
   return (
     <div>
        <h1>
       ---------------------------------------------🥷🥷🥷🥷🥷🥷🥷--------------------------------------
       </h1>
+      <h1>electronnnnnnnnnnn</h1>
       <h1>
       ---------------------------------------------🥷🥷🥷🥷🥷🥷🥷--------------------------------------
       </h1>
@@ -13,4 +14,4 @@ const electron = () => {
   )
 }
 
-export default electron
+export default Electron
