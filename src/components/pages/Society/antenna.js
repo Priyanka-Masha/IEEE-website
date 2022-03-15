@@ -1,12 +1,12 @@
 import React from 'react'
 
-const antenna = () => {
+const Antenna = () => {
   return (
     <div>
        <h1>
       ---------------------------------------------🥷🥷🥷🥷🥷🥷🥷--------------------------------------
       </h1>
-      <h1>antenna</h1>
+      <h1>antennaaaaaaaaaaaaaaaaaaa</h1>
       <h1>
       ---------------------------------------------🥷🥷🥷🥷🥷🥷🥷--------------------------------------
       </h1>
@@ -14,4 +14,4 @@ const antenna = () => {
   )
 }
 
-export default antenna
+export default Antenna
