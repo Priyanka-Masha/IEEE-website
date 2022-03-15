@@ -4,7 +4,9 @@ import cast from './cast'
 
 const Society = () => {
   return (
-    <><div>Society</div><antenna /><cast /></>
+    <><div>
+        <a href='#'></a>
+      </div><antenna /><cast /></>
   )
 }
 

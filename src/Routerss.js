@@ -28,7 +28,6 @@ const Routerss = () => {
             <>
               <Header />
               <Body />
-              <About />
             </>
           }
         />

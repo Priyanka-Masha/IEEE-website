@@ -1,13 +1,13 @@
 import React from 'react'
+import "./Body.css"
+import Video from "../Assets/video.mp4"
 
 const Body = () => {
   return (
-    <div>
-      <h1>---------------------------------------------BODY--------------------------------------------</h1>
-
-        <h1>hello this is frqn body</h1>
-      <h1>---------------------------------------------BODY--------------------------------------------</h1>
-
+    <div className='Body'>
+      <video id="bg-video" loop autoPlay muted >
+        <source src={Video} type="video/mp4" />
+      </video>
     </div>
   )
 }

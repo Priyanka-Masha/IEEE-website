@@ -1,6 +1,5 @@
 import React from "react";
 import "./Header.css";
-
 import logo from "../Assets/Logo.png";
 import { Link } from "react-router-dom";
 function Header() {
@@ -8,8 +7,14 @@ function Header() {
     <div className="header">
       <div className="logoContainer">
         <Link to="/">
-          <img className="Logo" src={logo} alt="" />
+          <li>
+            <a className="Logo" href="#">
+            <img className="Logo" src={logo} alt="" />
+            </a>
+          </li>
+            
         </Link>
+        
       </div>
 
       <div className="headerItems">
