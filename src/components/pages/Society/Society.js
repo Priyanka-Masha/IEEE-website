@@ -5,9 +5,18 @@ import SociBody from './SociBody';
 
 const Society = () => {
   return (
-    <><div>
-        <a href='#'></a>
-      </div><antenna /><cast /></>
+    
+    <div>
+
+            <Header />
+            <SociBody />
+
+       
+
+    </div>
+    
+
+          
   )
 }
 
