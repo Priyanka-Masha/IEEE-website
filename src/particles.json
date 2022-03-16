@@ -1,6 +1,6 @@
 {
   
-  "fpsLimit": 120,
+  "fpsLimit": 60,
   "interactivity": {
     "events": {
       "onClick": {
@@ -48,15 +48,15 @@
       "enable": true,
       "outMode": "bounce",
       "random": false,
-      "speed": 6,
+      "speed": 4,
       "straight": false
     },
     "number": {
       "density": {
         "enable": true,
-        "value_area": 800
+        "value_area": 70
       },
-      "value": 80
+      "value": 1
     },
     "opacity": {
       "value": 0.5

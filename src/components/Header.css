@@ -2,10 +2,7 @@
   box-sizing: border-box;
 }
 
-body {
-  height: 100vh;
-  background: white;
-}
+
 a{
     margin: 5px;
     text-decoration: none;
@@ -15,13 +12,19 @@ a{
 .header {
   background-color: black;
   color: rgb(0, 0, 0);
-  height: 80px;
+  height: 10vh;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  
 
   }
+ 
 
 .header > div {
   margin: 10px;

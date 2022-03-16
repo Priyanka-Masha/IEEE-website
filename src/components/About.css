@@ -1,0 +1,33 @@
+.aboutBox {
+  background-color: transparent;
+  color: white;
+  width:100%;
+  padding-left: 0%;
+  height: 100vh;
+  border-left: 0%;
+  padding: 50px;
+  display: flex;
+}
+.about1{
+  left:0;
+  width:50%;
+  font-size: large;
+  color:#FDF9F0;
+}
+.parah{
+    backdrop-filter: blur(4px);
+}
+.about1 >h1{
+    text-align: center;
+    color: white;
+}
+.about2{
+  width:50%;
+  right:0;
+}
+.zzi{
+  width:100%;
+  border: 1px solid black;
+  padding-left: 20px;
+  
+}
