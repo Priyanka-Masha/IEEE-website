@@ -1,0 +1,70 @@
+.soci{
+    background-image: linear-gradient(to bottom right, rgb(70, 70, 70), black);
+
+}
+.sociBanner{
+    height:50vh;
+    width:100%;
+    font-size:60px;
+    padding-top: 70px;
+    display:flex;
+    align-items:center;
+    z-index:0;
+    justify-content: center;
+}
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+
+
+    #fff800 20%,
+    #377ad3 40%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 150px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+.sociBanner1{
+    height:50vh;
+    padding-bottom: 80px;
+    width:100%;
+    font-size:20px;
+    padding-top: 70px;
+    display:flex;
+    align-items:center;
+    z-index:0;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+
+#container {
+    position: absolute;
+    margin: auto;
+    width: 100vw;
+    height: 80vh;
+    top: 0;
+    bottom: 0;
+
+}
+
+
+
+

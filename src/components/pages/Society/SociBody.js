@@ -1,4 +1,5 @@
 import React from "react";
+import "./SociBody.css";
 
 import Antenna from "./antenna";
 import Cse from "./cse";
@@ -12,22 +13,49 @@ import Power from "./power";
 import Robot from "./robot";
 import Medicine from "./medicine";
 import Women from "./women";
+import TextTransition, { presets } from "react-text-transition";
+
+const TEXTS = [
+  "Computer Society",
+  "Robotics and Automation Society ",
+  "Industry Applications Society",
+  "Power Electronics Society",
+
+  "Antennas and Propagation Society",
+  "Broadcast Technology Society",
+  "Engineering in Medicine and Biology Society",
+  "Communications Society",
+  "Electron Devices Society",
+  "Computational Intelligence Society",
+
+  "Control Systems Society",
+];
+
 const SociBody = () => {
+  const [index, setIndex] = React.useState(0);
+
+  React.useEffect(() => {
+    const intervalId = setInterval(
+      () => setIndex((index) => index + 1),
+      2000 // every 3 seconds
+    );
+    return () => clearTimeout(intervalId);
+  }, []);
   return (
-    <div>
-    <h1>this is the frqn body of the soci</h1>
-      <Cse />
-      <Cast />
-      <Cis />
-      <Coms />
-      <Control />
-      <Electron />
-      <Antenna />
-      <Industry />
-      <Medicine />
-      <Power />
-      <Robot />
-      <Women />
+    <div className="soci">
+      <div className="sociBanner">
+        <h1 className="animate-charcter">Societies</h1>
+      </div>
+      <div classname="soci">
+        <div className="sociBanner1">
+          <h1>
+            <TextTransition
+              text={TEXTS[index % TEXTS.length]}
+              springConfig={presets.wobbly}
+            />
+          </h1>
+        </div>
+      </div>
     </div>
   );
 };
