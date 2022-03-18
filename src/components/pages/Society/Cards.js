@@ -16,6 +16,7 @@ const Cards = () => {
             <div className="flip-box-back">
               <h2>Paris</h2>
               <p>What an amazing city</p>
+              <button className="button-49">Read More </button> 
             </div>
           </div>
         </div>
@@ -29,6 +30,8 @@ const Cards = () => {
             <div className="flip-box-back">
               <h2>Paris</h2>
               <p>What an amazing city</p>
+              <button className="button-49">Read More </button> 
+
             </div>
           </div>
         </div>
@@ -42,47 +45,8 @@ const Cards = () => {
             <div className="flip-box-back">
               <h2>Paris</h2>
               <p>What an amazing city</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="row-one">
-        <div className="flip-box">
-          <div className="flip-box-inner">
-            <div className="flip-box-front">
-              <img className="img" src={image} />
-              <h1>Hello there</h1>
-              <h2>athan da</h2>
-            </div>
-            <div className="flip-box-back">
-              <h2>Paris</h2>
-              <p>What an amazing city</p>
-            </div>
-          </div>
-        </div>
-        <div className="flip-box">
-          <div className="flip-box-inner">
-            <div className="flip-box-front">
-              <img className="img" src={image} />
-              <h1>Hello there</h1>
-              <h2>athan da</h2>
-            </div>
-            <div className="flip-box-back">
-              <h2>Paris</h2>
-              <p>What an amazing city</p>
-            </div>
-          </div>
-        </div>
-        <div className="flip-box">
-          <div className="flip-box-inner">
-            <div className="flip-box-front">
-              <img className="img" src={image} />
-              <h1>Hello there</h1>
-              <h2>athan da</h2>
-            </div>
-            <div className="flip-box-back">
-              <h2>Paris</h2>
-              <p>What an amazing city</p>
+              <button className="button-49">Read More </button> 
+
             </div>
           </div>
         </div>
@@ -98,6 +62,8 @@ const Cards = () => {
             <div className="flip-box-back">
               <h2>Paris</h2>
               <p>What an amazing city</p>
+              <button className="button-49">Read More </button> 
+
             </div>
           </div>
         </div>
@@ -111,6 +77,8 @@ const Cards = () => {
             <div className="flip-box-back">
               <h2>Paris</h2>
               <p>What an amazing city</p>
+              <button className="button-49">Read More </button> 
+
             </div>
           </div>
         </div>
@@ -124,6 +92,8 @@ const Cards = () => {
             <div className="flip-box-back">
               <h2>Paris</h2>
               <p>What an amazing city</p>
+              <button className="button-49">Read More </button> 
+
             </div>
           </div>
         </div>
@@ -139,6 +109,8 @@ const Cards = () => {
             <div className="flip-box-back">
               <h2>Paris</h2>
               <p>What an amazing city</p>
+              <button className="button-49">Read More </button> 
+
             </div>
           </div>
         </div>
@@ -152,6 +124,8 @@ const Cards = () => {
             <div className="flip-box-back">
               <h2>Paris</h2>
               <p>What an amazing city</p>
+              <button className="button-49">Read More </button> 
+
             </div>
           </div>
         </div>
@@ -165,6 +139,55 @@ const Cards = () => {
             <div className="flip-box-back">
               <h2>Paris</h2>
               <p>What an amazing city</p>
+              <button className="button-49">Read More </button> 
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="row-one">
+        <div className="flip-box">
+          <div className="flip-box-inner">
+            <div className="flip-box-front">
+              <img className="img" src={image} />
+              <h1>Hello there</h1>
+              <h2>athan da</h2>
+            </div>
+            <div className="flip-box-back">
+              <h2>Paris</h2>
+              <p>What an amazing city</p>
+              <button className="button-49">Read More </button> 
+
+            </div>
+          </div>
+        </div>
+        <div className="flip-box">
+          <div className="flip-box-inner">
+            <div className="flip-box-front">
+              <img className="img" src={image} />
+              <h1>Hello there</h1>
+              <h2>athan da</h2>
+            </div>
+            <div className="flip-box-back">
+              <h2>Paris</h2>
+              <p>What an amazing city</p>
+              <button className="button-49">Read More </button> 
+
+            </div>
+          </div>
+        </div>
+        <div className="flip-box">
+          <div className="flip-box-inner">
+            <div className="flip-box-front">
+              <img className="img" src={image} />
+              <h1>Hello there</h1>
+              <h2>athan da</h2>
+            </div>
+            <div className="flip-box-back">
+              <h2>Paris</h2>
+              <p>What an amazing city</p>
+              <button className="button-49">Read More </button> 
+
             </div>
           </div>
         </div>

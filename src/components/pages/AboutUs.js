@@ -8,7 +8,7 @@ const AboutUs = () => {
       </h1>
       <h1>
         About us page from home page.........with some extra
-        stuffffffffffffffffffffffff
+        stuuuuuuuuuuuuuuuuuuuuuuuuffffffffffffffffffffffff
       </h1>
       <h1>
         ---------------------------------------------🥷🥷🥷🥷🥷🥷🥷--------------------------------------

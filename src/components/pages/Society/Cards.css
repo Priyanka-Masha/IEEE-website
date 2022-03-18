@@ -54,8 +54,10 @@
     
     /* Style the back side */
     .flip-box-back {
-      background-color: dodgerblue;
+      background-color: rgb(180, 114, 235);
       color: white;
       transform: rotateY(180deg);
+      border-radius: 25px;
+
     }
     

@@ -1,16 +1,32 @@
+
+   
 import React from "react";
+import { motion } from "framer-motion";
+import { useRef, useEffect, useState } from "react";
+import images from "../../Assets/images.js"
+
+import "./Membership.css"
 
 const Membership = () => {
-  return (
-    <div>
-      <h1>
-        ---------------------------------------------🥷🥷🥷🥷🥷🥷🥷--------------------------------------
-      </h1>
+  const [width, setWidth] = useState(0);
+  const carousel = useRef();
 
-      <h1>All about membershippppp</h1>
-      <h1>
-        ---------------------------------------------🥷🥷🥷🥷🥷🥷🥷--------------------------------------
-      </h1>
+
+  return (
+    <div className="Membership">
+      <motion.div  ref={carousel} className="carousel">
+        <motion.div drag="x" 
+        dragConstraints={{ right:.1}}  className="inner-carousel">,
+          {images.map((image) => {
+            return (
+              <motion.div className="item">
+                <img src={image} alt="" />
+              </motion.div>
+            );
+          })}
+
+        </motion.div>
+      </motion.div>
     </div>
   );
 };
