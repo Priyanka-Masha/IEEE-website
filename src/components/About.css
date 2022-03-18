@@ -1,33 +1,100 @@
 .aboutBox {
   background-color: transparent;
   color: white;
-  width:100%;
+  width: 100%;
   padding-left: 0%;
   height: 100vh;
   border-left: 0%;
   padding: 50px;
   display: flex;
 }
-.about1{
-  left:0;
-  width:50%;
+.about1 {
+  left: 0;
+  width: 50%;
   font-size: large;
-  color:#FDF9F0;
+  color: #fdf9f0;
 }
-.parah{
-    backdrop-filter: blur(4px);
+.parah {
+  backdrop-filter: blur(4px);
 }
-.about1 >h1{
-    text-align: center;
-    color: white;
+.about1 > h1 {
+  text-align: center;
+  color: white;
 }
-.about2{
-  width:50%;
-  right:0;
+.about2 {
+  width: 50%;
+  right: 0;
 }
-.zzi{
-  width:100%;
+.zzi {
+  width: 100%;
   border: 1px solid black;
   padding-left: 20px;
-  
+}
+.cards {
+  background-color: transparent;
+  color: white;
+  width: 100%;
+  padding-left: 0%;
+  height: 100vh;
+  border-left: 0%;
+  padding: 30px;
+}
+.cardsName {
+  width: 100%;
+  font-size: large;
+  color: #fdf9f0;
+}
+.cardsName > h1 {
+  text-align: center;
+  color: white;
+}
+.cardsDiv {
+  margin-left: 150px;
+  margin-right: 150px;
+  height: 30vh;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card{
+  height: 27vh;
+  width: 100vh;
+  background-color: rgb(255, 255, 255,0.5);
+  text-align: center;
+  margin:10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border: 0px;
+  border-radius: 0px;
+  color: black;
+}
+.card>h2{
+  margin:7px 0px;
+}
+.card:hover{
+  transition: 0.5s;
+  border: 0px ;
+  border-radius: 40px
+}
+.fact {
+  background-color: transparent;
+  width: 100%;
+  height: 50vh;
+  border: 50px solid;
+  border-left: 30px solid;
+  border-right: 30px solid;
+  border-color: aliceblue;
+}
+.fact> h1 {
+  text-align: center;
+  color: cornflowerblue;
+}
+.facts {
+  width: 100%;
+  height: 50vh;
+  background-color: rgb(255, 255, 255,0.5);
+  justify-content: center;
+
+  /* z-index: -1; */
 }

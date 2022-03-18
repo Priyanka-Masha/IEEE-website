@@ -14,6 +14,7 @@ import Robot from "./robot";
 import Medicine from "./medicine";
 import Women from "./women";
 import TextTransition, { presets } from "react-text-transition";
+import SociBodyCards from "./SociBodyCards";
 
 const TEXTS = [
   "Computer Society",
@@ -56,6 +57,7 @@ const SociBody = () => {
           </h1>
         </div>
       </div>
+      <SociBodyCards/>
     </div>
   );
 };

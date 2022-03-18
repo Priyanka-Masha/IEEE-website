@@ -1,0 +1,6 @@
+
+.cardbg{
+    background-image: linear-gradient(to bottom right, rgb(70, 70, 70), black);
+    height: 500vh;
+    width: 100vw;
+}
