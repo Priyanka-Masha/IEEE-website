@@ -17,6 +17,18 @@ import Contact from "./components/pages/Contact";
 
 import SignIn from "./components/pages/SignIn";
 
+import Cse from "./components/pages/Society/cse";
+import Antenna from "./components/pages/Society/antenna";
+import Robot from "./components/pages/Society/robot";
+import Industry from "./components/pages/Society/industry";
+import Cast from "./components/pages/Society/cast";
+import Medicine from "./components/pages/Society/medicine";
+import Coms from "./components/pages/Society/coms";
+import Electron from "./components/pages/Society/electron";
+import Cis from "./components/pages/Society/cis";
+import Control from "./components/pages/Society/control";
+import Women from "./components/pages/Society/women";
+import Power from "./components/pages/Society/power";
 
 const Routerss = () => {
   return (
@@ -62,14 +74,11 @@ const Routerss = () => {
           element={
             <>
               <Society />
-              
-            </>  
+            </>
           }
         />
-        
 
-        <Route/>
-
+        <Route />
 
         <Route
           exact
@@ -120,6 +129,150 @@ const Routerss = () => {
             <>
               <Header />
               <SignIn />
+            </>
+          }
+        />
+      </Routes>
+      <Routes>
+        <Route
+          exact
+          path="/Societies/COMPUTERSOCIETY"
+          element={
+            <>
+              <Header />
+              <Cse />
+            </>
+          }
+        />
+      </Routes>
+      <Routes>
+        <Route
+          exact
+          path="/Societies/RoboticsandAutomationSociety"
+          element={
+            <>
+              <Header />
+              <Robot />
+            </>
+          }
+        />
+      </Routes>
+      <Routes>
+        <Route
+          exact
+          path="/Societies/IndustryApplicationsSociety"
+          element={
+            <>
+              <Header />
+              <Industry />
+            </>
+          }
+        />
+      </Routes>
+      <Routes>
+        <Route
+          exact
+          path="/Societies/PowerElectronicsSociety"
+          element={
+            <>
+              <Header />
+              <Power />
+            </>
+          }
+        />
+      </Routes>
+      <Routes>
+        <Route
+          exact
+          path="/Societies/BroadcastTechnologySociety"
+          element={
+            <>
+              <Header />
+              <Cast />
+            </>
+          }
+        />
+      </Routes>{" "}
+      <Routes>
+        <Route
+          exact
+          path="/Societies/EngineeringinMedicineandBiologySociety"
+          element={
+            <>
+              <Header />
+              <Medicine />
+            </>
+          }
+        />
+      </Routes>
+      <Routes>
+        <Route
+          exact
+          path="/Societies/CommunicationsSociety"
+          element={
+            <>
+              <Header />
+              <Coms />
+            </>
+          }
+        />
+      </Routes>
+      <Routes>
+        <Route
+          exact
+          path="/Societies/ElectronDevicesSociety"
+          element={
+            <>
+              <Header />
+              <Electron />
+            </>
+          }
+        />
+      </Routes>{" "}
+      <Routes>
+        <Route
+          exact
+          path="/Societies/ComputationalIntelligenceSociety"
+          element={
+            <>
+              <Header />
+              <Cis />
+            </>
+          }
+        />
+      </Routes>
+      <Routes>
+        <Route
+          exact
+          path="/Societies/"
+          element={
+            <>
+              <Header />
+              <Antenna />
+            </>
+          }
+        />
+      </Routes>
+      <Routes>
+        <Route
+          exact
+          path="/Societies/ControlSystemsSociety"
+          element={
+            <>
+              <Header />
+              < Control/>
+            </>
+          }
+        />
+      </Routes>
+      <Routes>
+        <Route
+          exact
+          path="/Societies/WomeninEngineering"
+          element={
+            <>
+              <Header />
+              <Women />
             </>
           }
         />

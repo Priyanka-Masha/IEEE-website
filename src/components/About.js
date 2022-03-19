@@ -75,9 +75,38 @@ const About = () => {
       </div>
       <div className="fact">
         <div className="facts">
-          <h1>FUN FACT</h1>
-          <h2>hello</h2>
+          <h1>[ FUN FACT ]</h1>
+          <div className="factNos">
+            <div className="factNo">
+              <h2>82+</h2>
+              <p>Active Members</p>
+            </div>
+            <div className="factNo">
+              <h2>127+</h2>
+              <p>Events Organized</p>
+            </div>
+            <div className="factNo">
+              <h2>12</h2>
+              <p>Active Societies</p>
+
+            </div>
+            <div className="factNo">
+              <h2>2</h2>
+              <p>Active Affinity Groups</p>
+            </div>
+          </div>
         </div>
+      </div>
+      <div className="quote">
+        <h1>When something is important enough, you do it even if the odds are not in your favor!</h1>
+      </div>
+      <div className="images">
+      <h1>images</h1>
+        
+      </div>
+      <div className="faq">
+      <h1>F.A.Q.</h1>
+        
       </div>
     </div>
 

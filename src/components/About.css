@@ -57,44 +57,93 @@
   justify-content: space-between;
   align-items: center;
 }
-.card{
+.card {
   height: 27vh;
-  width: 100vh;
-  background-color: rgb(255, 255, 255,0.5);
+  width: 75vh;
+  background-color: rgb(255, 255, 255, 0.5);
   text-align: center;
-  margin:10px;
+  margin: 10px;
   padding-left: 5px;
   padding-right: 5px;
   border: 0px;
   border-radius: 0px;
   color: black;
 }
-.card>h2{
-  margin:7px 0px;
+.card > h2 {
+  margin: 7px 0px;
 }
-.card:hover{
+.card:hover {
   transition: 0.5s;
-  border: 0px ;
-  border-radius: 40px
+  border: 0px;
+  border-radius: 40px;
 }
 .fact {
   background-color: transparent;
   width: 100%;
-  height: 50vh;
-  border: 50px solid;
-  border-left: 30px solid;
-  border-right: 30px solid;
+  height: 60vh;
+  border: 100px solid;
+  border-left: 50px solid;
+  border-right: 50px solid;
   border-color: aliceblue;
-}
-.fact> h1 {
-  text-align: center;
-  color: cornflowerblue;
 }
 .facts {
   width: 100%;
-  height: 50vh;
-  background-color: rgb(255, 255, 255,0.5);
+  height: auto;
+  background-color: rgb(255, 255, 255, 0.5);
   justify-content: center;
+  padding: 50px 0px 0px 0px;
+}
+.facts > h1 {
+  margin: 0px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
 
-  /* z-index: -1; */
+.factNos {
+  margin-left: 150px;
+  margin-right: 150px;
+  height: 30vh;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.factNo {
+  height: 27vh;
+  width: 100vh;
+  text-align: center;
+  margin: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border: 0px;
+  border-radius: 0px;
+  color: black;
+}
+.factNo > h2 {
+  font-size: 50px;
+  margin: 0px;
+}
+.quote {
+  margin: 50px;
+  padding : 70px;
+  background-color: white;
+}
+.quote > h1 {
+  color:black;
+  font-size:50px;
+margin:0px;
+}
+
+.images {
+}
+.images> h1 {
+  color:white;
+margin:0px;
+}
+.faq {
+}
+.faq > h1 {
+  color:white;
+margin:0px;
 }
