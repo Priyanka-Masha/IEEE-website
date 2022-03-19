@@ -184,6 +184,18 @@ const Routerss = () => {
       <Routes>
         <Route
           exact
+          path="/Societies/AntennasandPropagationSociety"
+          element={
+            <>
+              <Header />
+              <Antenna />
+            </>
+          }
+        />
+      </Routes>
+      <Routes>
+        <Route
+          exact
           path="/Societies/BroadcastTechnologySociety"
           element={
             <>
