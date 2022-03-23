@@ -29,54 +29,7 @@
   width: 100%;
   border: 1px solid black;
   padding-left: 20px;
-}
-.cards {
-  background-color: transparent;
-  color: white;
-  width: 100%;
-  padding-left: 0%;
-  height: 100vh;
-  border-left: 0%;
-  padding: 30px;
-}
-.cardsName {
-  width: 100%;
-  font-size: large;
-  color: #fdf9f0;
-}
-.cardsName > h1 {
-  text-align: center;
-  color: white;
-}
-.cardsDiv {
-  margin-left: 150px;
-  margin-right: 150px;
-  height: 30vh;
-  width: 80%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.card {
-  height: 27vh;
-  width: 75vh;
-  background-color: rgb(255, 255, 255, 0.5);
-  text-align: center;
-  margin: 10px;
-  padding-left: 5px;
-  padding-right: 5px;
-  border: 0px;
-  border-radius: 0px;
-  color: black;
-}
-.card > h2 {
-  margin: 7px 0px;
-}
-.card:hover {
-  transition: 0.5s;
-  border: 0px;
-  border-radius: 40px;
-}
+ }
 .fact {
   background-color: transparent;
   width: 100%;
@@ -126,24 +79,24 @@
 }
 .quote {
   margin: 50px;
-  padding : 70px;
+  padding: 70px;
   background-color: white;
 }
 .quote > h1 {
-  color:black;
-  font-size:50px;
-margin:0px;
+  color: black;
+  font-size: 50px;
+  margin: 0px;
 }
 
 .images {
+  background-color: rgb(255, 255, 255, 0.5);
 }
-.images> h1 {
-  color:white;
-margin:0px;
+.images > h1 {
+  color: black;
+  margin: 0px;
 }
 .faq {
-}
-.faq > h1 {
-  color:white;
-margin:0px;
+  background-color: rgb(255, 255, 255, 0.5);
+  text-align: center;
+  height: 100%;
 }

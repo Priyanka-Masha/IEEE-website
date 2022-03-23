@@ -1,6 +1,8 @@
 import React from "react";
 import "./About.css";
-import zz from "../Assets/zz.jpg"
+import zz from "../Assets/zz.jpg";
+import Faq from "./Faq";
+import AboutCards from "./AboutCards";
 
 const About = () => {
   return (
@@ -35,42 +37,7 @@ const About = () => {
           <h1>Why IEEE?</h1>
         </div>
         <div className="cardsDiv">
-          <div className="card">
-            <h2>IEEE Standards</h2>
-            <p>With an active portfolio of nearly 1,300 standards and projects under
-              development, IEEE is a leading developer of industry standards in a
-              broad range of technologies.</p>
-          </div>
-          <div className="card">
-            <h2>IEEE eLearning Library</h2>
-            <p>Online courses enable you to get up to speed quickly on emerging
-              technologies and trends.</p>
-          </div>
-          <div className="card">
-            <h2>Student Travel Grant</h2>
-            <p>IEEE offers a number of student travel grants to assist Student
-              members in attending conferences and presenting papers.</p>
-          </div>
-        </div>
-        <div className="cardsDiv">
-          <div className="card">
-            <h2>Free @ieee.org Email​</h2>
-            <p>With GoogleApps@IEEE, members gain a robust capability for messaging
-              with access to email, calendar, and contact services from any
-              Internet-connected computer.</p>
-          </div>
-          <div className="card">
-
-            <h2>Scholarships & Fellowships​</h2>
-            <p>IEEE offers a variety of scholarships, grants, and fellowships
-              for IEEE Student members.</p>
-          </div>
-          <div className="card">
-
-            <h2>IEEE Women In Engineering</h2>
-            <p>IEEE Women in Engineering (WIE) is a global network of IEEE
-              members and volunteers dedicated to promoting women engineers.</p>
-          </div>
+          <AboutCards />
         </div>
       </div>
       <div className="fact">
@@ -101,16 +68,28 @@ const About = () => {
         <h1>When something is important enough, you do it even if the odds are not in your favor!</h1>
       </div>
       <div className="images">
-      <h1>images</h1>
-        
+        <h1>images</h1>
+
       </div>
       <div className="faq">
-      <h1>F.A.Q.</h1>
-        
+        <div className="faqHead">
+          <h1>FREQUENTLY ASKED QUESTIONS</h1>
+
+        </div>
+        <div className="">
+          <Faq />
+        </div>
       </div>
     </div>
 
   );
 };
+
+
+
+
+
+
+
 
 export default About;
