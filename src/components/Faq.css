@@ -50,7 +50,7 @@
   transition: all .3s linear;
 }
 .rotate.down {
-  -moz-transform:rotate(225deg);
-  -webkit-transform:rotate(225deg);
-  transform:rotate(225deg);
+  -moz-transform:rotate(180deg);
+  -webkit-transform:rotate(180deg);
+  transform:rotate(180deg);
 }

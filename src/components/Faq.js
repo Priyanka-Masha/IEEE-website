@@ -1,6 +1,5 @@
 import { useState } from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPlus } from '@fortawesome/free-solid-svg-icons'
+import ChevronUp from "../Assets/chevron-up";
 import "./Faq.css";
 
 function Faq() {
@@ -21,7 +20,7 @@ function Faq() {
           <div className="faqItem">
             <div className="faqTitle" onClick={()=>toggle(i)}>
               <h3>{item.head}</h3>
-              <FontAwesomeIcon icon={faPlus} className={selected === i ? 'rotate down' : 'rotate'} />
+              <div className={selected === i ? 'rotate' : 'rotate down'}><ChevronUp  /></div>
             </div>
             <div className={selected === i ? 'content show' : 'content'}>
               <p>{item.para}</p>
