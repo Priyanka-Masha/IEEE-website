@@ -1,3 +1,71 @@
-.AboutUs{
-    padding-top: 100px;
+.AboutUs {
+    padding-top: 300px;
+}
+
+#bg-video {
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    padding: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.AboutUs {
+    color: white;
+    width: 100%;
+    height: 100vh;
+    text-transform: uppercase;
+
+}
+
+
+.title {
+    justify-content: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    display: flex;
+    height: 50%;
+    width: 100%;
+    flex-direction: column;
+    top: 0;
+    left: 30px;
+    align-items: center;
+    position: absolute;
+    font-size: 70px;
+
+
+}
+
+.w3-row {
+    justify-content: center;
+    padding-left: 200px;
+}
+
+.w3-light-grey {
+    margin-left: 90px;
+    margin-right: 70px;
+    margin-bottom: 20px;
+
+}
+
+.w3-container {
+    justify-content: center;
+}
+
+.heading {
+    color: black;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    font-size: 35px;
+}
+
+img{
+    width: 100%;
 }

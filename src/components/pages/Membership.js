@@ -1,9 +1,8 @@
-
-   
 import React from "react";
+import videoBg1 from '../../Assets/people.mp4'
+import videoBg2 from '../../Assets/work.mp4'
 import { motion } from "framer-motion";
 import { useRef, useEffect, useState } from "react";
-import images from "../../Assets/images.js"
 
 import "./Membership.css"
 
@@ -13,21 +12,14 @@ const Membership = () => {
 
 
   return (
-    <div className="Membership">
-      <motion.div  ref={carousel} className="carousel">
-        <motion.div drag="x" 
-        dragConstraints={{ right:.1}}  className="inner-carousel">,
-          {images.map((image) => {
-            return (
-              <motion.div className="item">
-                <img src={image} alt="" />
-              </motion.div>
-            );
-          })}
-
-        </motion.div>
-      </motion.div>
+  <div className="main">
+    <div className="overlay">    </div>
+    <video src={videoBg1} autoPlay loop muted></video>
+    <h1>MEMBERSHIPPP</h1>
+    <video className="overlay1" src={videoBg2} autoPlay loop muted ></video>
+    <div className="content"> WELCOME </div>
     </div>
+    
   );
 };
 
