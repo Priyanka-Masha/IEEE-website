@@ -57,7 +57,7 @@ function Header() {
           </li>
         </Link>
 
-        <Link to="/AboutUs">
+        <Link to="/Gallery">
           <li>
             <a className="btn1" href="#">
               Gallery

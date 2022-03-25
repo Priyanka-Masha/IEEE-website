@@ -1,0 +1,95 @@
+.event{
+    width: 100%;
+    height: 300vh;
+    background-color: black;
+}
+
+.sidenav {
+    height: 100vh; /* Full-height: remove this if you want "auto" height */
+    width: 255px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* S75tay on top */
+    top: 61px; /* Stay at the top */
+    left: 0;
+    background-color: rgb(0, 0, 0); /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 10px 16px 4px 24px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #818181;
+    display: block;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #4420e4;
+  }
+  
+  /* Style page content */
+  .main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  .column {
+    float: left;
+    left: 200px;
+    width: 25%;
+    padding: 20px 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row {
+      padding-left: 300px;
+      height: 100vh;
+      margin: 0 -5px;
+      top: 150px;
+    }
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  /* Style the counter cards */
+  .eventCard {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8); /* this adds the "card" effect */
+    padding: 30px;
+    height:350px;
+    width:245px;
+    border-radius: 30px;
+    text-align: center;
+    transition: 0.3s;
+    background-color: rgb(29, 28, 28);
+  }
+.sidenav hr{
+    color: #4420e4;
+    border-color: #4420e4;
+}
+  .eventCard:hover {
+    box-shadow:  4px 4px 20px 4px rgba(11, 7, 255, 0.6);
+  }
+  
+  /* Responsive columns - one column layout (vertical) on small screens */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }

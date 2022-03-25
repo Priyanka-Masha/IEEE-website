@@ -1,16 +1,48 @@
 import React from "react";
+import "./Events.css"
 
 const Events21 = () => {
   return (
-    <div>
-      <h1>
-        ---------------------------------------------🥷🥷🥷🥷🥷🥷🥷--------------------------------------
-      </h1>
-
-      <h1>Events21</h1>
-      <h1>
-        ---------------------------------------------🥷🥷🥷🥷🥷🥷🥷--------------------------------------
-      </h1>
+    <div className='event'>
+        
+<div class="row">
+  <div class="column">
+    <div class="eventCard">..</div>
+  </div>
+  <div class="column">
+    <div class="eventCard">..</div>
+  </div>
+  <div class="column">
+    <div class="eventCard">..</div>
+  </div>
+  <div class="column">
+    <div class="eventCard">..</div>
+  </div>
+  <div class="column">
+    <div class="eventCard">..</div>
+  </div>
+  <div class="column">
+    <div class="eventCard">..</div>
+  </div>
+  <div class="column">
+    <div class="eventCard">..</div>
+  </div>
+  <div class="column">
+    <div class="eventCard">..</div>
+  </div>
+  <div class="column">
+    <div class="eventCard">..</div>
+  </div>
+  <div class="column">
+    <div class="eventCard">..</div>
+  </div>
+  <div class="column">
+    <div class="eventCard">..</div>
+  </div>
+  <div class="column">
+    <div class="eventCard">..</div>
+  </div>
+</div>
     </div>
   );
 };

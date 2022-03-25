@@ -1,20 +1,49 @@
 import React from 'react'
+import "./Events.css"
 
 const Events20 = () => {
   return (
-
-    <div>
-        <h1>
-        ---------------------------------------------🥷🥷🥷🥷🥷🥷🥷--------------------------------------
-      </h1>
-
-     <h1>
-      Events20
-      </h1>
-      <h1>
-        ---------------------------------------------🥷🥷🥷🥷🥷🥷🥷--------------------------------------
-      </h1>
-</div>
+<div className='event'>
+        
+        <div class="row">
+          <div class="column">
+            <div class="eventCard">..</div>
+          </div>
+          <div class="column">
+            <div class="eventCard">..</div>
+          </div>
+          <div class="column">
+            <div class="eventCard">..</div>
+          </div>
+          <div class="column">
+            <div class="eventCard">..</div>
+          </div>
+          <div class="column">
+            <div class="eventCard">..</div>
+          </div>
+          <div class="column">
+            <div class="eventCard">..</div>
+          </div>
+          <div class="column">
+            <div class="eventCard">..</div>
+          </div>
+          <div class="column">
+            <div class="eventCard">..</div>
+          </div>
+          <div class="column">
+            <div class="eventCard">..</div>
+          </div>
+          <div class="column">
+            <div class="eventCard">..</div>
+          </div>
+          <div class="column">
+            <div class="eventCard">..</div>
+          </div>
+          <div class="column">
+            <div class="eventCard">..</div>
+          </div>
+        </div>
+            </div>
   )
 }
 

@@ -9,7 +9,7 @@ import Excom20 from "./components/pages/Excom/Excom20";
 import Society from "./components/pages/Society/Society";
 import AboutUs from "./components/pages/AboutUs";
 import Events20 from "./components/pages/Events/Events20";
-
+import Events19 from "./components/pages/Events/Events19";
 import Events21 from "./components/pages/Events/Events21";
 import Events22 from "./components/pages/Events/Events22";
 import Membership from "./components/pages/Membership";
@@ -29,7 +29,9 @@ import Cis from "./components/pages/Society/cis";
 import Control from "./components/pages/Society/control";
 import Women from "./components/pages/Society/women";
 import Power from "./components/pages/Society/power";
-
+import Gallery from "./components/pages/Gallery";
+import Events from "./components/pages/Events/Events"
+import Sidenav from "./components/pages/Events/Sidenav";
 const Routerss = () => {
   return (
     <Router>
@@ -86,9 +88,41 @@ const Routerss = () => {
           element={
             <>
               <Header />
-              <Events20 />
+              <Sidenav />
+              <Events />
+            </>
+          }
+        />
+        <Route
+          exact
+          path="/Events21"
+          element={
+            <>
+              <Header />
+              <Sidenav />
               <Events21 />
-              <Events22 />
+            </>
+          }
+        />
+        <Route
+          exact
+          path="/Events20"
+          element={
+            <>
+              <Header />
+              <Sidenav />
+              <Events20 />
+            </>
+          }
+        />
+        <Route
+          exact
+          path="/Events19"
+          element={
+            <>
+              <Header />
+              <Sidenav />
+              <Events19 />
             </>
           }
         />
@@ -109,6 +143,7 @@ const Routerss = () => {
           element={
             <>
               <Header />
+              <Gallery />
             </>
           }
         />
