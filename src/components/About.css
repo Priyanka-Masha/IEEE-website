@@ -1,5 +1,5 @@
 .aboutBox {
-  background-color: transparent;
+  background-color: rgba(255, 255, 255, 0.781);
   color: white;
   width: 100%;
   padding-left: 0%;
@@ -30,8 +30,11 @@
   border: 1px solid black;
   padding-left: 20px;
  }
+ .cards{
+  background-color: rgba(255, 255, 255, 0.781);
+
+ }
 .fact {
-  background-color: transparent;
   width: 100%;
   height: 60vh;
   border: 100px solid;
@@ -78,9 +81,7 @@
   margin: 0px;
 }
 .quote {
-  margin: 50px;
-  padding: 70px;
-  background-color: white;
+  background-color: blue;
 }
 .quote > h1 {
   color: black;

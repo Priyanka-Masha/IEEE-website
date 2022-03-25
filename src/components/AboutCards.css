@@ -82,7 +82,7 @@ body {
   margin: 0 auto;
 }
 
-.row {
+.abrow {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;

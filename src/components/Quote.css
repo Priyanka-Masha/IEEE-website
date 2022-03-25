@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap");
+
+.main {
+  font-family: "Space Grotesk", Helvetica, Arial, sans-serif;
+  color: rgba(9, 19, 60, 1);
+}
+
+.bg {
+  background-image: url(https://source.unsplash.com/n7a2OJDSZns/2200x1100);
+  background-position: center;
+  background-size: cover;
+  min-height: auto;
+  width: auto;
+  padding: 40px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.panel {
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(255, 255, 255, 0.3) 0%,
+    rgba(255, 255, 255, 0.1) 100%
+  );
+  backdrop-filter: blur(6px);
+  border-radius: 12px;
+  width: 75%;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 20px;
+  box-shadow: rgba(255, 255, 255, 0.5) -20px -20px 45px inset,
+    rgba(0, 0, 0, 0.1) 10px 10px 20px, rgba(0, 0, 0, 0.06) 5px 5px 10px;
+  position: relative;
+
+  
+}
+
+.panel h2 {
+  font-size: 2em;
+  font-weight: 1000;
+  margin-top: 0;
+}
+
+.card__text {
+  font-size: 14px;
+  line-height: 1.45;
+  opacity: 0.8;
+  margin-bottom: 2em;
+}

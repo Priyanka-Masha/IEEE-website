@@ -20,14 +20,14 @@ function Header() {
       <div className="headerItems">
         <Link to="/AboutUs">
           <li>
-            <a className="btn" href="#">
+            <a className="btn1" href="#">
               About Us
             </a>
           </li>
         </Link>
         <Link to="/Excom">
           <li>
-            <a className="btn" href="#">
+            <a className="btn1" href="#">
               Excom
             </a>
           </li>
@@ -35,7 +35,7 @@ function Header() {
 
         <Link to="/Societies">
           <li>
-            <a className="btn" href="#">
+            <a className="btn1" href="#">
               Societies
             </a>
           </li>
@@ -43,7 +43,7 @@ function Header() {
 
         <Link to="/Events">
           <li>
-            <a className="btn" href="#">
+            <a className="btn1" href="#">
               Events
             </a>
           </li>
@@ -51,7 +51,7 @@ function Header() {
 
         <Link to="/Membership">
           <li>
-            <a className="btn" href="#">
+            <a className="btn1" href="#">
               Membership
             </a>
           </li>
@@ -59,7 +59,7 @@ function Header() {
 
         <Link to="/AboutUs">
           <li>
-            <a className="btn" href="#">
+            <a className="btn1" href="#">
               Gallery
             </a>
           </li>
@@ -67,7 +67,7 @@ function Header() {
 
         <Link to="/ContactUs">
           <li>
-            <a className="btn" href="#">
+            <a className="btn1" href="#">
               Contact Us
             </a>
           </li>
@@ -75,7 +75,7 @@ function Header() {
 
         <Link to="/SignIn">
           <li>
-            <a className="btn" href="#">
+            <a className="btn1" href="#">
               Sign In
             </a>
           </li>

@@ -28,17 +28,17 @@
 }
 
 
-.content{
+.faqContent{
   color:#8b7f75;
   max-height: 0;
   overflow: hidden;
   transition: all 0.5s cubic-bezier(0, 1, 0, 1);
   padding: 0px 70px;
 }
-.content > p{
+.faqContent > p{
   font-size: 1.25em;
 }
-.content.show{
+.faqContent.show{
   border-top: 1px #85662b solid;
   height: auto;
   max-height: 9999px;

@@ -3,6 +3,9 @@ import "./About.css";
 import zz from "../Assets/zz.jpg";
 import Faq from "./Faq";
 import AboutCards from "./AboutCards";
+import Images from "./Images";
+import Quote from './Quote';
+import Counter from "./Counter";
 
 const About = () => {
   return (
@@ -45,31 +48,31 @@ const About = () => {
           <h1>[ FUN FACT ]</h1>
           <div className="factNos">
             <div className="factNo">
-              <h2>82+</h2>
+              <h2><Counter num={82}/></h2>
               <p>Active Members</p>
             </div>
             <div className="factNo">
-              <h2>127+</h2>
+              <h2><Counter num={127}/>+</h2>
               <p>Events Organized</p>
             </div>
             <div className="factNo">
-              <h2>12</h2>
+              <h2><Counter num={12}/></h2>
               <p>Active Societies</p>
 
             </div>
             <div className="factNo">
-              <h2>2</h2>
+              <h2><Counter num={2}/></h2>
               <p>Active Affinity Groups</p>
             </div>
           </div>
         </div>
       </div>
       <div className="quote">
-        <h1>When something is important enough, you do it even if the odds are not in your favor!</h1>
+        <Quote />
       </div>
       <div className="images">
         <h1>images</h1>
-
+        <Images />
       </div>
       <div className="faq">
         <div className="faqHead">

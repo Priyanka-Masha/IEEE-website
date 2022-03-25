@@ -22,7 +22,7 @@ function Faq() {
               <h3>{item.head}</h3>
               <div className={selected === i ? 'rotate' : 'rotate down'}><ChevronUp  /></div>
             </div>
-            <div className={selected === i ? 'content show' : 'content'}>
+            <div className={selected === i ? 'faqContent show' : 'faqContent'}>
               <p>{item.para}</p>
             </div>
           </div>
