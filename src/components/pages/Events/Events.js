@@ -1,7 +1,9 @@
-import React from "react";
+import React from 'react'
+import { Link } from 'react-router-dom'
+import { Color } from 'three'
 import "./Events.css"
 
-const Events22 = () => {
+const Events = () => {
   return (
     <div className='event'>
         
@@ -44,7 +46,7 @@ const Events22 = () => {
   </div>
 </div>
     </div>
-  );
-};
+  )
+}
 
-export default Events22;
+export default Events

@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 import "./Events.css"
 
-const Events22 = () => {
+const Events19 = () => {
   return (
     <div className='event'>
         
@@ -44,7 +44,7 @@ const Events22 = () => {
   </div>
 </div>
     </div>
-  );
-};
+  )
+}
 
-export default Events22;
+export default Events19
