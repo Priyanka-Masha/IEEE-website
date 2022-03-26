@@ -6,6 +6,9 @@ import "./Events.css"
 const Sidenav = () => {
   return (
     <div>
+        <div className='hh'>
+          <h1>EVENTS</h1>
+        </div>
         <div class="sidenav">
             <br />
             <Link to="/Events">

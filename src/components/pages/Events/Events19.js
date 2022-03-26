@@ -5,7 +5,7 @@ const Events19 = () => {
   return (
     <div className='event'>
         
-<div class="row">
+<div class="row1">
   <div class="column">
     <div class="eventCard">..</div>
   </div>
