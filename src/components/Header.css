@@ -1,13 +1,12 @@
-*{
+* {
   box-sizing: border-box;
 }
 
-
-a{
-    margin: 5px;
-    text-decoration: none;
-    color: white;
-    cursor: pointer;
+a {
+  margin: 5px;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
 }
 .header {
   background-color: black;
@@ -20,35 +19,30 @@ a{
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 1;
-  
-
-  
-
-  }
- 
+  z-index: 100;
+}
 
 .header > div {
   margin: 10px;
 }
 
-.headerItems{
-    display: flex;
-    float: right;
-    color: #f7eeee;
-    cursor: pointer;
-    font-size: larger;
+.headerItems {
+  display: flex;
+  float: right;
+  color: #f7eeee;
+  cursor: pointer;
+  font-size: larger;
 }
-    .headerItems p{
-        margin:10px;
-    }
+.headerItems p {
+  margin: 10px;
+}
 
-li{
-    list-style-type:none;
-  }
+li {
+  list-style-type: none;
+}
 
 .Logo {
-  width:200px;
+  width: 200px;
   height: 100px;
   z-index: 0;
   display: flex;
@@ -56,11 +50,10 @@ li{
   cursor: pointer;
 }
 
-
 .btn1 {
   width: 85px;
   height: 50px;
-  font-family: 'Cinzel', serif;
+  font-family: "Cinzel", serif;
   font-size: 17px;
   cursor: pointer;
   -webkit-tap-highlight-color: transparent;
@@ -72,12 +65,13 @@ li{
   transition: 1s;
 }
 
-.btn1::before, .btn1::after {
+.btn1::before,
+.btn1::after {
   position: absolute;
   background: black;
   z-index: -1;
   transition: 1s;
-  content: '';
+  content: "";
 }
 
 .btn1::before {
@@ -92,11 +86,11 @@ li{
 
 .noselect {
   -webkit-touch-callout: none;
-    -webkit-user-select: none;
-     -khtml-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .btn1:hover::before {

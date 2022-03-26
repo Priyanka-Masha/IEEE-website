@@ -1,12 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap");
 
-.main {
-  font-family: "Space Grotesk", Helvetica, Arial, sans-serif;
-  color: rgba(9, 19, 60, 1);
-}
-
 .bg {
-  background-image: url(https://source.unsplash.com/n7a2OJDSZns/2200x1100);
+  margin: 0px 15%;
   background-position: center;
   background-size: cover;
   min-height: auto;
@@ -15,36 +10,64 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: "Space Grotesk", Helvetica, Arial, sans-serif;
+  color: white;
 }
 
+.rgb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 18px;
+  border: 0px;
+  border-radius: 5px;
+}
+.blackBg {
+  border-radius: 12px;
+  display: flex;
+}
 .panel {
   background-image: linear-gradient(
     to bottom right,
     rgba(255, 255, 255, 0.3) 0%,
-    rgba(255, 255, 255, 0.1) 100%
+    rgba(0, 0, 0, 0.274) 100%
   );
-  backdrop-filter: blur(6px);
+  backdrop-filter: blur(1px);
   border-radius: 12px;
   width: 75%;
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-left: 1px solid rgba(255, 255, 255, 0.5);
-  padding: 20px;
-  box-shadow: rgba(255, 255, 255, 0.5) -20px -20px 45px inset,
+  padding: 30px;
+  padding-right: 60px;
+  margin-right: 0px;
+  box-shadow: rgba(85, 77, 77, 0.5) -20px -20px 45px inset,
     rgba(0, 0, 0, 0.1) 10px 10px 20px, rgba(0, 0, 0, 0.06) 5px 5px 10px;
+  z-index: 0;
   position: relative;
-
-  
+}
+.cardRight {
+  display: flex;
+  flex-direction: column;
+}
+.qtImg {
+  width: 100px;
+  height: 107.238px;
+  margin: -20px 0px 0px -20px;
+  z-index: 1;
 }
 
 .panel h2 {
-  font-size: 2em;
-  font-weight: 1000;
+  font-size: 3em;
+  font-weight: 800;
   margin-top: 0;
 }
 
-.card__text {
-  font-size: 14px;
-  line-height: 1.45;
-  opacity: 0.8;
-  margin-bottom: 2em;
+.Qby {
+  width: 100%;
+  z-index: 1;
+  margin-left: -30px;
+}
+.Qby h2 {
+  color: bisque;
+  font-weight: 700;
 }

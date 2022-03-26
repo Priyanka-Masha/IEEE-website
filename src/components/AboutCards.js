@@ -1,10 +1,10 @@
-import React, { useState, useRef } from 'react';
-import { useSpring, animated } from 'react-spring';
-import './AboutCards.css';
+import React, { useState, useRef } from "react";
+import { useSpring, animated } from "react-spring";
+import "./AboutCards.css";
 
 const AboutCards = () => {
   return (
-    <div className="main">
+    <div className="abmain">
       <Hero>
         <div className="container">
           <div className="abrow">
@@ -31,7 +31,7 @@ const AboutCards = () => {
       </Hero>
     </div>
   );
-}
+};
 
 function Card({ children }) {
   const ref = useRef();
@@ -40,7 +40,7 @@ function Card({ children }) {
   const [animatedProps, setAnimatedProps] = useSpring(() => {
     return {
       xys: [0, 0, 1],
-      config: { mass: 30, tension: 600, friction: 40, precision: 0.00001 }
+      config: { mass: 30, tension: 600, friction: 40, precision: 0.00001 },
     };
   });
 
@@ -67,7 +67,7 @@ function Card({ children }) {
         const xys = [
           -(y - ref.current.clientHeight / 2) / dampen, // rotateX
           (x - ref.current.clientWidth / 2) / dampen, // rotateY
-          1.07 // Scale
+          1.07, // Scale
         ];
         setAnimatedProps({ xys: xys });
       }}
@@ -80,15 +80,13 @@ function Card({ children }) {
         transform: animatedProps.xys.interpolate(
           (x, y, s) =>
             `perspective(600px) rotateX(${x}deg) rotateY(${y}deg) scale(${s})`
-        )
+        ),
       }}
     >
       {children}
     </animated.div>
   );
 }
-
-
 
 function Hero({ children }) {
   return (
@@ -98,41 +96,39 @@ function Hero({ children }) {
   );
 }
 
-
 const card1 = [
   {
-    title: 'IEEE Standards',
+    title: "IEEE Standards",
     description:
-      'With an active portfolio of nearly 1,300 standards and projects under development, IEEE is a leading developer of industry standards in a broad range of technologies.',
+      "With an active portfolio of nearly 1,300 standards and projects under development, IEEE is a leading developer of industry standards in a broad range of technologies.",
   },
   {
-    title: 'IEEE eLearning Library',
+    title: "IEEE eLearning Library",
     description:
-      'Online courses enable you to get up to speed quickly on emerging technologies and trends.',
+      "Online courses enable you to get up to speed quickly on emerging technologies and trends.",
   },
   {
-    title: 'Student Travel Grant',
+    title: "Student Travel Grant",
     description:
-      'IEEE offers a number of student travel grants to assist Student members in attending conferences and presenting papers.',
-  }
+      "IEEE offers a number of student travel grants to assist Student members in attending conferences and presenting papers.",
+  },
 ];
 const card2 = [
   {
-    title: 'Free @ieee.org Email',
+    title: "Free @ieee.org Email",
     description:
-      'With GoogleApps@IEEE, members gain a robust capability for messaging with access to email, calendar, and contact services from any Internet-connected computer.',
+      "With GoogleApps@IEEE, members gain a robust capability for messaging with access to email, calendar, and contact services from any Internet-connected computer.",
   },
   {
-    title: 'Scholarships & Fellowships',
+    title: "Scholarships & Fellowships",
     description:
-      'IEEE offers a variety of scholarships, grants, and fellowships for IEEE Student members.',
+      "IEEE offers a variety of scholarships, grants, and fellowships for IEEE Student members.",
   },
   {
-    title: 'IEEE Women In Engineering',
+    title: "IEEE Women In Engineering",
     description:
-      'IEEE Women in Engineering (WIE) is a global network of IEEE members and volunteers dedicated to promoting women engineers.',
-  }
+      "IEEE Women in Engineering (WIE) is a global network of IEEE members and volunteers dedicated to promoting women engineers.",
+  },
 ];
-
 
 export default AboutCards;

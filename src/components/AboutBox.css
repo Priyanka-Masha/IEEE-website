@@ -1,0 +1,34 @@
+.ABmain {
+  background-color: black;
+  padding: 10px;
+}
+.abHead {
+  text-align: center;
+}
+.abRow {
+  display: flex;
+  flex-direction: row;
+}
+.abContent {
+  width: 50%;
+  background-image: radial-gradient(#212121 20%, transparent 20%),
+    radial-gradient(#383838 20%, transparent 20%);
+  background-color: #0a0101;
+  background-position: 0 0, 5px 5px;
+  background-size: 10px 10px;
+  border: 10px solid;
+  border-color: rgb(179, 132, 74);
+  margin: 180px 0px -30px 130px;
+}
+.abInnerBox {
+  background-color: rgb(39, 38, 38);
+  width: 40%;
+  margin-left: 20px;
+  margin-top: -75px;
+  padding: 20px;
+  position: absolute;
+}
+.abImg {
+  width: 65%;
+  padding-right: 90px;
+}

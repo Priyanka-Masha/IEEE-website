@@ -1,4 +1,7 @@
-.image-gallery-image{
-    height: 400px;
-    width: 400px;
+.image-gallery-image {
+  height: 400px;
+  width: 400px;
+}
+.image-gallery-content button {
+  z-index: 1;
 }

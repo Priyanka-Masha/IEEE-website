@@ -1,56 +1,55 @@
-.wrapper{
+.wrapper {
   display: flex;
   height: auto;
   width: auto;
   justify-content: center;
   align-items: center;
 }
-.accordion{
+.accordion {
   width: 75%;
 }
 
-.faqItem{
-  background: #f0ebe1;
+.faqItem {
+  background: #ffd369;
   margin-bottom: 5px;
-  padding: 10px 20px; 
+  padding: 10px 20px;
 }
 
-.faqTitle{
-  color: #85662b;
+.faqTitle {
+  color: #393e46;
   display: flex;
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
 }
 
-.faqTitle > h3{
-  color: #85662b;
+.faqTitle > h3 {
+  color: #393e46;
 }
 
-
-.faqContent{
-  color:#8b7f75;
+.faqContent {
+  color: #463629;
   max-height: 0;
   overflow: hidden;
   transition: all 0.5s cubic-bezier(0, 1, 0, 1);
   padding: 0px 70px;
 }
-.faqContent > p{
+.faqContent > p {
   font-size: 1.25em;
 }
-.faqContent.show{
-  border-top: 1px #85662b solid;
+.faqContent.show {
+  border-top: 1px #393e46 solid;
   height: auto;
   max-height: 9999px;
   transition: all 0.5s cubic-bezier(1, 0, 1, 0);
 }
 .rotate {
-  -moz-transition: all .3s linear;
-  -webkit-transition: all .3s linear;
-  transition: all .3s linear;
+  -moz-transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
 .rotate.down {
-  -moz-transform:rotate(180deg);
-  -webkit-transform:rotate(180deg);
-  transform:rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
 }
